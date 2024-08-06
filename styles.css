@@ -53,6 +53,26 @@ header h1 {
 .contact-us:hover {
     background-color: #1ebea5; /* Darker green on hover */
 }
+.contact-us-inline {
+    display: inline-flex;
+    align-items: center;
+    background-color: #2E8B57; /* WhatsApp green color */
+    color: white;
+    padding: 10px 15px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 10px;
+}
+.contact-us-inline img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+.contact-us-inline:hover {
+    background-color: #1ebea5; /* Darker green on hover */
+}
 nav {
     display: flex;
     justify-content: center;
@@ -95,8 +115,7 @@ section {
 }
 .links {
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     gap: 10px;
 }
 footer {
@@ -114,3 +133,4 @@ footer {
     text-decoration: none;
     font-size: 20px;
 }
+
